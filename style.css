@@ -1,1 +1,40 @@
-<link rel="stylesheet" href="/style.css" />
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+}
+
+h1 {
+  font-size: 48px;
+  color: #1d3557;
+}
+
+h2 {
+  color: #2a9d8f;
+}
+
+button {
+  background: #2a9d8f;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-right: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #21867a;
+}
+
+section {
+  background: white;
+  margin: 20px;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+p {
+  line-height: 1.7;
+}
