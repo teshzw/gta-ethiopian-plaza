@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f3f4f6;
+  background: #f1f5f9;
   color: #111827;
 }
 
@@ -39,7 +39,7 @@ button {
   background: #168a68;
   color: white;
   border: none;
-  padding: 13px 22px;
+  padding: 14px 22px;
   margin: 8px 8px 8px 0;
   border-radius: 10px;
   cursor: pointer;
@@ -47,7 +47,7 @@ button {
 }
 
 button:hover {
-  background: #0f6b50;
+  background: #116b52;
 }
 
 div {
@@ -59,19 +59,15 @@ ul {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   border-radius: 14px;
 }
 
-@media (max-width: 768px) {
-  section {
-    margin: 14px;
-    padding: 24px;
-  }
+.grid {
+  display: grid;
+  gap: 24px;
+}
 
-  h1 {
-    font-size: 32px;
-  }
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -99,14 +95,6 @@ img {
 
 .card p {
   margin-bottom: 0;
-}
-  button {
-    width: 100%;
-    margin-right: 0;
-  }
-  .grid {
-  display: grid;
-  gap: 24px;
 }
 
 .rounded-2xl {
@@ -174,32 +162,18 @@ img {
   margin: auto;
 }
 
-section {
-  padding: 40px 20px;
-}
+@media (max-width: 768px) {
+  section {
+    margin: 14px;
+    padding: 24px;
+  }
 
-button {
-  background: #168a68;
-  color: white;
-  border: none;
-  padding: 14px 22px;
-  border-radius: 10px;
-  font-weight: bold;
-  cursor: pointer;
-}
+  h1 {
+    font-size: 32px;
+  }
 
-button:hover {
-  background: #116b52;
-}
-
-img {
-  width: 100%;
-  border-radius: 14px;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f1f5f9;
-  color: #111827;
+  button {
+    width: 100%;
+    margin-right: 0;
+  }
 }
