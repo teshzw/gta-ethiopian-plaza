@@ -272,5 +272,27 @@ export default function App() {
         </div>
       </footer>
     </div>
-  );
+  );<div className="card-grid">
+  <div className="card">
+    <h3>Vision</h3>
+    <p>
+      To create a recognized Ethiopian commercial plaza in the GTA.
+    </p>
+  </div>
+
+  <div className="card">
+    <h3>Mission</h3>
+    <p>
+      Organize professionals and business owners to develop the plaza project.
+    </p>
+  </div>
+
+  <div className="card">
+    <h3>Purpose</h3>
+    <p>
+      Increase Ethiopian business visibility and create jobs.
+    </p>
+  </div>
+</div>
+  
 }
