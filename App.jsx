@@ -1,90 +1,209 @@
 import React from "react";
-import "./style.css";
 
 export default function App() {
   return (
-    <div>
-      <header className="hero">
-        <div className="container">
-          <p className="badge">GTA Ethiopian Plaza Initiative</p>
-          <h1>Building a future Ethiopian business plaza in the Greater Toronto Area.</h1>
-          <p className="hero-text">
-            A community business project to bring Ethiopian grocery, restaurants,
-            cafés, offices, cultural services, and entrepreneurs together in one
-            convenient GTA plaza with strong parking and customer access.
-          </p>
-          <button>Register Interest</button>
-        </div>
-      </header>
+    <>
+      {/* HERO SECTION */}
+      <div className="hero">
+        <div className="container hero-content">
 
-      <section className="container card-grid">
-        <div className="card">
-          <h2>Vision</h2>
-          <p>To create a recognized Ethiopian commercial plaza in the GTA.</p>
-        </div>
-        <div className="card">
-          <h2>Mission</h2>
-          <p>To organize serious community members and business owners to plan the project.</p>
-        </div>
-        <div className="card">
-          <h2>Purpose</h2>
-          <p>To increase Ethiopian business visibility, create jobs, and build opportunity.</p>
-        </div>
-      </section>
-
-      <section className="container section-box">
-        <h2>Why not Ethiopians too?</h2>
-        <p>
-          Chinese, Indian, Filipino, Korean, Somali, Middle Eastern, Italian, and
-          Portuguese communities have built strong business areas in the GTA.
-          Ethiopians also have strong culture, food, coffee, professionals, and entrepreneurs.
-        </p>
-      </section>
-
-      <section className="container section-box">
-        <h2>Action Plan</h2>
-        <div className="steps">
-          {["Register Interest", "Build Core Group", "Study Locations", "Prepare Business Plan", "Create Legal Structure"].map((step, i) => (
-            <div className="step" key={i}>
-              <strong>Step {i + 1}</strong>
-              <h3>{step}</h3>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="container section-box">
-        <h2>Sample Plaza Opportunity</h2>
-        <div className="plaza-box">
-          <img
-            src="https://images.loopnet.ca/d2/9Q5s2g5QvR8sXqN3X7uG7n8L4oJ0fY6hK5bA1mP2eQ0/document.jpg"
-            alt="9100 Jane Street Plaza"
-          />
-          <div>
-            <h3>9100 Jane Street Plaza — Vaughan, Ontario</h3>
-            <p>Approximate asking price: CAD $5.395 million</p>
-            <p>Large parking, near Vaughan Mills, Highway 400 and 407 access.</p>
+          <div className="hero-badge">
+            GTA Ethiopian Plaza Initiative
           </div>
+
+          <h1>
+            Building a future Ethiopian business plaza in the Greater Toronto Area.
+          </h1>
+
+          <p className="hero-text">
+            A community business project to bring Ethiopian grocery stores,
+            restaurants, cafés, offices, cultural services, and entrepreneurs
+            together in one modern GTA business plaza with strong parking,
+            visibility, and customer access.
+          </p>
+
+          <button>Register Interest</button>
+          <button>Learn About the Vision</button>
+
         </div>
-      </section>
+      </div>
 
-      <section className="container section-box">
-        <h2>Role of TRNY Consulting</h2>
-        <p>
-          TRNY Consulting is helping organize and coordinate the early planning stage
-          by connecting interested community members, professionals, entrepreneurs,
-          and business owners.
-        </p>
-        <p className="notice">
-          Important: This website is for interest registration only. It is not an
-          investment offering and no money should be collected before legal and
-          accounting structure is created.
-        </p>
-      </section>
+      {/* MAIN CONTENT */}
+      <div className="container">
 
+        {/* VISION / MISSION / PURPOSE */}
+        <section className="card-grid">
+
+          <div className="card">
+            <h3>Vision</h3>
+            <p>
+              To create a recognized Ethiopian commercial plaza in the GTA
+              where Ethiopian businesses can grow together and serve the wider community.
+            </p>
+          </div>
+
+          <div className="card">
+            <h3>Mission</h3>
+            <p>
+              To organize serious community members, professionals, and
+              entrepreneurs to study, plan, and develop a practical Ethiopian
+              plaza project in the GTA.
+            </p>
+          </div>
+
+          <div className="card">
+            <h3>Purpose</h3>
+            <p>
+              To increase Ethiopian business visibility, create jobs,
+              support families, and strengthen long-term community opportunity.
+            </p>
+          </div>
+
+        </section>
+
+        {/* WHY ETHIOPIANS */}
+        <section className="section-box">
+
+          <h2>Why not Ethiopians too?</h2>
+
+          <p>
+            Chinese, Indian, Filipino, Korean, Somali, Middle Eastern,
+            Italian, and Portuguese communities have built strong business
+            areas in the GTA. Ethiopians also have strong culture,
+            entrepreneurship, restaurants, grocery stores, cafés,
+            coffee traditions, and professionals.
+          </p>
+
+        </section>
+
+        {/* OBJECTIVES */}
+        <section className="section-box">
+
+          <h2>Project Objectives</h2>
+
+          <div className="card-grid">
+
+            <div className="card">
+              <h3>Business Visibility</h3>
+              <p>
+                Create a visible Ethiopian business destination in the GTA.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Customer Access</h3>
+              <p>
+                Study locations with strong parking, transit,
+                and road accessibility.
+              </p>
+            </div>
+
+            <div className="card">
+              <h3>Professional Network</h3>
+              <p>
+                Bring entrepreneurs, professionals, and investors together.
+              </p>
+            </div>
+
+          </div>
+
+        </section>
+
+        {/* ACTION PLAN */}
+        <section className="section-box">
+
+          <h2>Action Plan</h2>
+
+          <div className="steps">
+
+            <div className="step-card">
+              <div className="step-number">STEP 1</div>
+              <h3>Register Interest</h3>
+            </div>
+
+            <div className="step-card">
+              <div className="step-number">STEP 2</div>
+              <h3>Build Core Group</h3>
+            </div>
+
+            <div className="step-card">
+              <div className="step-number">STEP 3</div>
+              <h3>Study Locations</h3>
+            </div>
+
+            <div className="step-card">
+              <div className="step-number">STEP 4</div>
+              <h3>Business Plan</h3>
+            </div>
+
+            <div className="step-card">
+              <div className="step-number">STEP 5</div>
+              <h3>Legal Structure</h3>
+            </div>
+
+          </div>
+
+        </section>
+
+        {/* SAMPLE LOCATION */}
+        <section className="section-box">
+
+          <h2>Sample Plaza Opportunity</h2>
+
+          <div className="plaza-box">
+
+            <div className="plaza-image">
+              <img
+                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200"
+                alt="Plaza"
+              />
+            </div>
+
+            <div className="plaza-details">
+
+              <h3>Example GTA Commercial Plaza</h3>
+
+              <p>
+                Large parking, major road visibility, grocery potential,
+                restaurant space, office opportunities, and easy customer access.
+              </p>
+
+              <p>
+                Areas such as Vaughan, North York, Scarborough,
+                Mississauga, or Etobicoke may provide future opportunities.
+              </p>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        {/* CONSULTING ROLE */}
+        <section className="section-box">
+
+          <h2>Role of TRNY Consulting</h2>
+
+          <p>
+            TRNY Consulting helps organize and coordinate the early planning
+            stage by connecting interested community members,
+            professionals, and entrepreneurs.
+          </p>
+
+          <div className="notice">
+            Important: This website is for interest registration only.
+            It is not an investment offering and no money should be collected
+            before proper legal and accounting structure is created.
+          </div>
+
+        </section>
+
+      </div>
+
+      {/* FOOTER */}
       <footer>
         © 2026 GTA Ethiopian Plaza Initiative | Organized by TRNY Consulting
       </footer>
-    </div>
+    </>
   );
 }
