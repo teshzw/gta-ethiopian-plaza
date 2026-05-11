@@ -4,7 +4,7 @@ function Card({ children }) {
   return <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">{children}</div>;
 }
 
-export default function EthiopianPlazaGTA() {
+export default function App() {
   const objectives = [
     "Create a dedicated Ethiopian business plaza in the Greater Toronto Area.",
     "Bring Ethiopian restaurants, grocery stores, cafés, professional offices, and cultural businesses into one visible location.",
