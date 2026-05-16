@@ -24,7 +24,7 @@ export default function App() {
 
           <div className="hero-buttons">
   <a
-    href="https://docs.google.com/forms/d/e/1FAIpQLScCbRfT6eGJ43UBygq9kuh7mxVZ9pvrGuW3BuKBfFuTTGIefQ/viewform?usp=dialog
+    href="https://docs.google.com/forms/d/e/1FAIpQLScCbRfT6eGJ43UBygq9kuh7mxVZ9pvrGuW3BuKBfFuTTGIefQ/viewform?usp=dialog"
     target="_blank"
     rel="noopener noreferrer"
     className="primary-btn"
