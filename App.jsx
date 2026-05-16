@@ -187,7 +187,7 @@ export default function App() {
           <p>
             TRNY Consulting helps organize and coordinate the early planning
             stage by connecting interested community members,
-            professionals, and entrepreneurs.
+            professionals, and entrepreneurs. email: teshzw@gmail.com
           </p>
 
           <div className="notice">
