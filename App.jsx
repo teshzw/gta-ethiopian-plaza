@@ -22,8 +22,23 @@ export default function App() {
             visibility, and customer access.
           </p>
 
-          <button>Register Interest</button>
-          <button>Learn About the Vision</button>
+          <div className="hero-buttons">
+  <a
+    href="https://docs.google.com/forms/d/e/1FAIpQLScCbRfT6eGJ43UBygq9kuh7mxVZ9pvrGuW3BuKBfFuTTGJeFQ/viewform"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="primary-btn"
+  >
+    Register Interest
+  </a>
+
+  <a
+    href="#vision"
+    className="secondary-btn"
+  >
+    Learn About the Vision
+  </a>
+</div>
 
         </div>
       </div>
